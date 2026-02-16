@@ -1,9 +1,71 @@
-div {
-    background-color: lightblue;
-    padding: 20px;
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-section {
-    background-color: lightgreen;
-    padding: 15px;
+body {
+    background-color: grey;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    min-height: 80vh; /* Ensures body takes full height of the viewport */
+}
+
+.content-wrapper {
+    text-align: center;  /* Centers the content inside the wrapper */
+}
+
+h1 {
+    margin-bottom: 20px;  /* Adds space between the h1 and calculator */
+}
+
+h1 .titler {
+    background-color: lightgray;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.calculator {
+    background-color: rgb(57, 68, 68);
+    display: flex;
+    height: 84%;
+    width: 80%;
+    margin: auto; /* Ensures it's centered */
+    justify-content: center;
+}
+
+.sum {
+    background-color: rgb(112, 108, 108);
+    justify-content: center;
+    justify-content: center;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.total {
+    background-color: aqua;
+    text-align: center;
+    
+}
+
+table, td{
+    justify-content: center;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+}
+
+.nums {
+    
+}
+
+table {
+    padding: 10px;
+    table-layout: fixed;
+    width: 80%;
+    padding: 20px;
+    border-style: none;
 }
